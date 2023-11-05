@@ -1,7 +1,15 @@
+<<<<<<< HEAD
 """littlelemon URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.0/topics/http/urls/
+=======
+"""
+URL configuration for littlelemon project.
+
+The `urlpatterns` list routes URLs to views. For more information please see:
+    https://docs.djangoproject.com/en/4.2/topics/http/urls/
+>>>>>>> 8ab6f7f157ca9c8ce9f6d96e5e8891cd544e82f6
 Examples:
 Function views
     1. Add an import:  from my_app import views
