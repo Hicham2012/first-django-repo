@@ -4,11 +4,7 @@ ASGI config for littlelemon project.
 It exposes the ASGI callable as a module-level variable named ``application``.
 
 For more information on this file, see
-<<<<<<< HEAD
-https://docs.djangoproject.com/en/4.0/howto/deployment/asgi/
-=======
 https://docs.djangoproject.com/en/4.2/howto/deployment/asgi/
->>>>>>> 8ab6f7f157ca9c8ce9f6d96e5e8891cd544e82f6
 """
 
 import os
