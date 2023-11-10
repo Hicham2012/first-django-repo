@@ -37,8 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    # Register restaurant app
-    'restaurant'
+    # Register restaurant application
+    'restaurant',
+    # Add DJango Rest Framework (DRF)
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
