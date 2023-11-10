@@ -19,6 +19,8 @@ from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 from restaurant import views
 
+# Wire up BookingViewSet with Booking
+# with 'restaurant/booking/' path
 router = DefaultRouter()
 router.register(r'tables', views.BookingViewSet)
 
