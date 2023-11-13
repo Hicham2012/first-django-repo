@@ -14,8 +14,8 @@ class Booking(models.Model):
 # Menu class
 class Menu(models.Model):
     title = models.CharField(max_length=255)
-    price = models.DecimalField(max_digits=10, decimal_places=2)
-    inventory = models.PositiveIntegerField(default=5)
+    price = models.DecimalField(max_digits=6, decimal_places=2)
+    inventory = models.SmallIntegerField()
 
     def __str__(self):
-      return f"{self.title} / {self.price}"
+      return f"{self.title} : {self.price}"
